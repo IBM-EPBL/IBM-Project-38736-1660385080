@@ -1,0 +1,58 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Times New Roman, Helvetica, sans-serif;  
+  background-color: black;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Patient Registeration Form</h1> </center>  
+  <hr>  
+<label> <b>Firstname</b> </label>        
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> <b>Middlename:</b> </label>    
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> <b>Lastname:</b> </label>        
+<input type="text" name="lastname" size="15"/> <br> <br>  
+ 
+<label>  
+<b>Gender :</b>  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>
+<label for="Age"><b>Age:</b></label>  
+ <input type="text" placeholder="Age" name="Age" required>  
+<label>  
+<label for="Patient ID"><b>Patient ID:</b></label>  
+ <input type="text" placeholder="Patient ID" name="Patient" required>
+<br>  <br>
+<label>  
+<b>Phone :</b>
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>  
+<input type="text" name="phone" size="10"/> <br> <br>  
+<b>Address</b>  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+<b>Email:</b>  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+<button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>
